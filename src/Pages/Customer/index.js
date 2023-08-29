@@ -32,7 +32,7 @@ const CustomerPage = () => {
             dataIndex: "firstName",
           },
           {
-            title: "LastName",
+            title: "Last Name",
             dataIndex: "lastName",
           },
           {
@@ -45,7 +45,7 @@ const CustomerPage = () => {
           },
 
           {
-            title: "address",
+            title: "Address",
             dataIndex: "address",
             render: (address) => {
               return (
